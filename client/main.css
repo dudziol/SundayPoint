@@ -1,0 +1,40 @@
+body{
+    font-family: Brush Script MT,cursive; 
+    background-color: #778ca3;
+}
+.nav-bar, .map, .footer{
+    padding: 20px;
+    color: #d1d8e0;
+}
+.nav-bar{
+    background-color: #B01E1D;
+    margin-left: -10%;
+    margin-right: -10%;
+}
+.map{
+    background-color:#778ca3;    
+}
+.footer{
+    background-color: rgba(22, 42, 67, 0.514);
+    margin: 0 -2%;
+    
+}
+.menu-element{
+    font-size: 35px;
+    text-align: center;
+    color: #F3D4C3;
+    
+}
+.menu-element .glyphicon{
+    font-size: 34px;
+}
+.menu-element:not(#add-point){
+    border-right: solid white 1px;    
+}
+a{
+    text-decoration: none;
+    color: default;
+}
+ul{
+    list-style-type: none;
+}
